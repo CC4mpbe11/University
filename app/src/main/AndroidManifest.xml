@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.CC4mpbe11.university">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupOnly="true"
+        android:icon="@mipmap/wgu_android_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/wgu_android_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".Receivers.TheReceiver" />
+        <activity
+            android:name=".DetailsScreens.AttachRemoveCourse"
+            android:exported="true" />
+        <activity
+            android:name=".DetailsScreens.TermDetails"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailsScreens.EditTermActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PrimaryActivities.AssessmentActivity" />
+        <activity
+            android:name=".DetailsScreens.CourseDetails"
+            android:exported="true"
+            android:label="@string/title_activity_course_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailsScreens.AssessmentDetails"
+            android:exported="true"
+            android:label="@string/title_activity_assessment_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrimaryActivities.CatalogueActivity"
+            android:label="@string/title_activity_catalogue"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- <activity -->
+        <!-- android:name=".AssessmentActivity" -->
+        <!-- android:label="@string/title_activity_Assessment" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <activity
+            android:name=".PrimaryActivities.SchedulerActivity"
+            android:label="@string/title_activity_scheduler"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PrimaryActivities.TermCourseActivity" />
+        <activity android:name=".PrimaryActivities.TermsActivity" />
+        <activity android:name=".PrimaryActivities.MenuActivity" />
+        <activity android:name=".PrimaryActivities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

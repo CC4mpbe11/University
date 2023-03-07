@@ -1,0 +1,159 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">WGUandroid</string>
+    <string name="enterButton">ENTER</string>
+    <string name="owlDescription">A picture of an owl.</string>
+    <string name="wguBanner">DEGREE PLANNER</string>
+    <string name="passwordHint">Password</string>
+    <string name="usernameHint">Username</string>
+    <string name="contentDescription">this is the description</string>
+    <string name="tile2">Tile2</string>Ad
+    <string name="tile1" tools:ignore="Typos">Tile1</string>
+    <string name="tile3">Tile3</string>
+    <string name="tile4">Tile4</string>
+    <string name="pathHeading">Path Forward</string>
+    <string name="coursesHeading">All Courses</string>
+    <string name="schedulerHeading">Scheduler</string>
+    <string name="assessmentHeading">Assessments</string>
+    <string name="menuHeader2">The question is "Who can stop me?"</string>
+    <string name="menuHeader1">The question is "not Who will let me?"</string>
+    <string name="scheduler">Scheduler</string>
+    <string name="assessmentIconCaption">Icon of Assessment Paper</string>
+    <string name="schedulingIconCaption">Icon of Scheduling Clock</string>
+    <string name="courseIconCaption">Icon of Course Catalogue</string>
+    <string name="pathIconCaption">Icon of Critical Path</string>
+    <string name="channel_name">notification channel</string>
+    <string name="channel_description">notification channel description</string>
+
+    <string-array name="Terms">
+        <item>Term 1</item>
+        <item>Term 2</item>
+        <item>Term 3</item>
+        <item>Term 4</item>
+        <item>Term 5</item>
+        <item>Term 6</item>
+        <item>Term 7</item>
+        <item>Term 8</item>
+    </string-array>
+
+    <string-array name="Courses">
+        <item>Test Course 1</item>
+        <item>Test Course 2</item>
+        <item>Test Course 3</item>
+        <item>Test Course 4</item>
+        <item>Test Course 5</item>
+        <item>Test Course 6</item>
+        <item>Test Course 7</item>
+        <item>Test Course 8</item>
+        <item>Test Course 9</item>
+        <item>Test Course 10</item>
+        <item>Test Course 11</item>
+        <item>Test Course 12</item>
+    </string-array>
+
+    <string-array name="Descriptions">
+        <item>Course description 1</item>
+        <item>Course description 2</item>
+        <item>Course description 3</item>
+        <item>Course description 4</item>
+        <item>Course description 5</item>
+        <item>Course description 6</item>
+        <item>Course description 7</item>
+        <item>Course description 8</item>
+        <item>Course description 9</item>
+        <item>Course description 10</item>
+        <item>Course description 11</item>
+        <item>Course description 12</item>
+
+    </string-array>
+    <string name="title_activity_scheduler">SchedulerActivity</string>
+    <string name="title_activity_assessment">AssessmentActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_catalogue">ScrollingActivity</string>
+    <string name="large_catalogue_text">
+        A CATALOGUE OF COURSES WOULD GO HERE\n\n
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="coursesFiller">Course 1 \nCourse 2 \nCourse 3 \nCourse 4</string>
+    <string name="termFiller">Term 1</string>
+    <string name="dateRangeHolder">XX/XX/XX - XX/XX/XX</string>
+    <string name="courseInfo">Information about course</string>
+    <string name="exampleStatus">In Progress</string>
+    <string name="exampleName">Scobbie Bimble</string>
+    <string name="examplePhone">666–777–8888</string>
+    <string name="exampleEmail">Scobbie@Bimble.gov</string>
+    <string name="pictureDescription">This is a picture</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="selectCourse">Select Course</string>
+    <string name="selectAssessment">Select Assessment</string>
+    <string name="todo">TODO</string>
+    <string name="selectStatus">Select Status</string>
+    <string name="selectTerm">Select Term</string>
+    <string name="title_activity_assessment_details">AssessmentDetails</string>
+    <string name="title_activity_course_details">CourseDetails</string>
+    <string name="cant_delete_term_toast">Term must have no associated courses before it can be deleted.</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="choose_an_assessment">Choose an assessment</string>
+    <string name="filter">Filter</string>
+    <string name="choose_course_to_add">Choose Course to Add</string>
+    <string name="course_start_end">Course Start-End</string>
+    <string name="term_assignment">Term Assignment</string>
+    <string name="course_status">Course Status</string>
+    <string name="picture_of_a_teacher">Picture of a teacher</string>
+    <string name="choose_term_to_edit">Choose Term to Edit</string>
+    <string name="course">Course</string>
+    <string name="term">Term</string>
+    <string name="amend_dates">Amend Dates</string>
+    <string name="delete_term">Delete Term</string>
+    <string name="term_number">Term Number</string>
+    <string name="attach_a_course">Attach a Course</string>
+    <string name="remove_a_course">Remove a Course</string>
+    <string name="scroll_down_to_view_second_calendar">Scroll down to view second calendar.</string>
+    <string name="term_start">Term Start:</string>
+    <string name="term_end">Term End:</string>
+    <string name="edit_term">Edit Term</string>
+    <string name="new_term">New Term</string>
+    <string name="xxxx">XXXX</string>
+    <string name="assessment">Assessment</string>
+    <string name="assessment_time">Assessment Time</string>
+    <string name="assessment_date">Assessment Date</string>
+    <string name="associated_course">Associated Course</string>
+    <string name="assessment_type">Assessment Type</string>
+    <string name="assessment_vendor">Assessment Vendor</string>
+    <string name="schedule_assessment">Schedule Assessment</string>
+    <string name="assessment_name">Assessment Name</string>
+    <string name="assessment_code">Assessment Code</string>
+    <string name="share_course_notes">Share Course Notes</string>
+    <string name="end_date">End Date</string>
+    <string name="course_notes">Course Notes</string>
+    <string name="start_date">Start Date</string>
+    <string name="assign_to_term">Assign to Term</string>
+    <string name="status">Status</string>
+    <string name="course_code">Course Code</string>
+    <string name="instructor_email">Instructor Email</string>
+    <string name="instructor_phone">Instructor Phone</string>
+    <string name="instructor_name">Instructor Name</string>
+    <string name="course_description">Course Description</string>
+    <string name="schedule_course">Schedule Course</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="schedule_term">Schedule Term</string>
+    <string name="term_end_date">Term End Date</string>
+    <string name="term_start_date">Term Start Date</string>
+    <string name="term_name">Term Name</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="sure_delete">Are you sure you would like to delete this assessment?</string>
+    <string name="must_be_number">Term must be a number</string>
+    <string name="choose_course_detach">Choose Course to Detach</string>
+    <string name="choose_course_attach">Choose Course to Attach</string>
+    <string name="term_space">Term</string>
+    <string name="test_notifications">Test Notifications</string>
+    <string name="search">Search</string>
+    <string name="course_name">Course Name</string>
+    <string name="userPassIncorrect">Your username or password is incorrect.</string>
+    <string name="statusSpinnerSpeakable">status</string>
+    <string name="termSpinnerSpeakable">select a term to assign this course to</string>
+    <string name="courseNotesSpeakable">add notes about this course</string>
+
+</resources>

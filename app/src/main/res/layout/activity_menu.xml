@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#132C52">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="185dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/termsButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="40dp"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/pathIconCaption"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/pathicon" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/pathHeading"
+            android:textColor="#132C52"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="@string/pathHeading" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="185dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView5"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/coursesButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="40dp"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/courseIconCaption"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/catalogueicon" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/coursesHeading"
+            android:textColor="#132C52"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="@string/coursesHeading" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="185dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+        <ImageButton
+            android:id="@+id/assessmentButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="40dp"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/assessmentIconCaption"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/assessmenticon" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/assessmentHeading"
+            android:textColor="#132C52"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="@string/assessmentHeading" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView8"
+        android:layout_width="185dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView7"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/scheduler"
+            android:textColor="#132C52"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Scheduler" />
+
+        <ImageButton
+            android:id="@+id/schedulerButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="40dp"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/schedulingIconCaption"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/clockicon" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/inspText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/menuHeader1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/menuHeader2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inspText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
